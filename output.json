@@ -1,0 +1,38 @@
+{
+    "decision": "Rollback",
+    "rationale": {
+        "pm_insight": "User experience is degrading",
+        "data_insight": "Declining metrics: ['signup_conversion', 'dau', 'retention_d1', 'payment_success']",
+        "marketing_insight": "Negative customer sentiment",
+        "support_insight": "High support ticket volume expected"
+    },
+    "risk_register": [
+        {
+            "risk": "High crash rate increasing",
+            "severity": "high"
+        },
+        {
+            "risk": "User dissatisfaction rising",
+            "severity": "high"
+        }
+    ],
+    "action_plan": [
+        {
+            "action": "Fix crash issues",
+            "owner": "Engineering"
+        },
+        {
+            "action": "Optimize API latency",
+            "owner": "Backend Team"
+        },
+        {
+            "action": "Improve payment reliability",
+            "owner": "Payments Team"
+        }
+    ],
+    "communication_plan": {
+        "internal": "Immediately alert product, engineering, and support teams",
+        "external": "Inform users about known issues and expected resolution timeline"
+    },
+    "confidence_score": 0.9
+}

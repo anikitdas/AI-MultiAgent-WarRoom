@@ -1,0 +1,2 @@
+New Feature: One-click checkout system
+Known Issues: Increased latency under heavy load, possible crash on older devices

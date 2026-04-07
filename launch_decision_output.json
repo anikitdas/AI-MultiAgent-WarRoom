@@ -1,0 +1,43 @@
+{
+    "timestamp": "2026-04-07 19:49:52.625839",
+    "decision": "Rollback",
+    "rationale": {
+        "product_manager": "User experience degrading",
+        "data_analysis": "Declining metrics: ['signup_conversion', 'dau', 'retention_d1', 'payment_success']",
+        "marketing": "Negative sentiment",
+        "support": "High support tickets expected",
+        "release_notes_context": "New Feature: One-click checkout system\nKnown Issues: Increased latency under heavy load, possible crash on older devices\n"
+    },
+    "risk_register": [
+        {
+            "risk": "High crash rate increasing",
+            "severity": "high",
+            "mitigation": "Immediate investigation and fix required"
+        },
+        {
+            "risk": "User dissatisfaction rising",
+            "severity": "high",
+            "mitigation": "Immediate investigation and fix required"
+        }
+    ],
+    "action_plan_24_48h": [
+        {
+            "action": "Fix crash issues",
+            "owner": "Engineering Team"
+        },
+        {
+            "action": "Reduce API latency",
+            "owner": "Backend Team"
+        },
+        {
+            "action": "Stabilize payment system",
+            "owner": "Payments Team"
+        }
+    ],
+    "communication_plan": {
+        "internal": "Immediately notify product, engineering, and leadership teams",
+        "external": "Inform users about known issues and expected resolution timeline"
+    },
+    "confidence_score": 0.9,
+    "confidence_reason": "Critical crash rate increase detected from metrics and supported by negative feedback"
+}
